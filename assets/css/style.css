@@ -318,7 +318,7 @@ h4 {
 @media (max-width: 980px) {
 
 	#about, #portfolio, #contact {
-		padding: 0 5%;
+		/*padding: 0 5%;*/
 	}
 
 	.header-align {
