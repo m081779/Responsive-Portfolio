@@ -387,10 +387,16 @@ h4 {
 
 	.connect {
 		margin-bottom: 100px;
+
+	}
+
+	.bottom-nav ul {
+		text-align: left;
 	}
 
 	.connect-icon  {
-		float:left;
+		display:inline-block;
+		margin-right: 20px;
 	}
 
 	.img-container {
@@ -418,18 +424,31 @@ h4 {
 		width: 100%;
 		background: #ffffff;
 		border-bottom: 2px solid #cccccc;
+
 	}
 
+
 	.top-nav ul {
-		line-height: 50px;
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+		line-height: 20px;
+		
 	}
 
 	.header-align {
 		width: 100%;
 	}
 
-	.main-nav{
-		padding: 0 40px;
+	.main-nav {
+
+		margin-top:15px;
+		width: 33%;	
+	}
+
+	#about, #portfolio {
+		/*padding: 0 15%;*/
+
 	}
 
 	.img-container {
@@ -451,7 +470,7 @@ h4 {
 	}
 
 	.connect {
-		margin-bottom: 0;
+		margin-bottom: 20px;
 	}
 
 	footer {
