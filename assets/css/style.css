@@ -61,7 +61,7 @@ a {
 
 .main-nav a {
 	color:#777777;
-	transition: all 200ms ease-in-out;
+	transition: color 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 
 .main-nav a:hover {
@@ -73,14 +73,14 @@ a {
 	opacity: 1;
 }
 
-
 .main-nav {
 	color:#777777;
-	transition: all 200ms ease-in-out;
+	transition: color 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 
 .main-nav:hover {
 	opacity: 0.6;
+
 }
 
 .main-nav:active {
@@ -257,7 +257,7 @@ input[type=submit] {
 	padding: 10px 25px;
 	font-size: 20px;
 	border: 2px solid #ffffff;
-	transition: all 200ms ease-in-out;
+	transition: background-color 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, opacity 200ms ease-in-out;
 }
 
 input[type=submit]:hover {
